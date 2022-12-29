@@ -23,8 +23,7 @@ class BaseApiProvider extends GetConnect {
   void addRequestModifier() {
     httpClient.addRequestModifier<dynamic>((request) {
       //TODO: Add your authorized key(Access Token from Github) to increase your Github API hit limit
-      // String token = 'Your_Access_Token';
-      String token = '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';
+      String token = 'Your_Access_Token';
       request.headers['Authorization'] = 'Bearer $token';
       return request;
     });
@@ -37,7 +36,6 @@ class BaseApiProvider extends GetConnect {
   ) {
     Get.printInfo(
         info: 'Request: ${request.url}, Status Code: ${response.statusCode}\n'
-        //     'Data: ${response.bodyString?.toString() ?? ''}',
         );
     return response;
   }
@@ -45,10 +43,6 @@ class BaseApiProvider extends GetConnect {
   Future<Response> apiRequest(
       String urlStr, Method method, dynamic parameters) async {
     Response? response;
-    // var connectivityResult = await Connectivity().checkConnectivity();
-    // if (connectivityResult == ConnectivityResult.none) {
-    //   AppHelper.singleton.showNetworkErrorScreen();
-    // }
 
     switch (method) {
       case Method.get:
