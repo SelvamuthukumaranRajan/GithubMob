@@ -1,16 +1,24 @@
-# githubmob
+<h2 align="center">
+GithubMob
+</h2>
 
-Flutter project with Github API
+<h3 align="center">
+Simple github repositories list app with commit details
+</h3>
 
-## Getting Started
+<h4 align="center">
+Available for Android and iOS.
+</h4>
 
-This project is a starting point for a Flutter application.
+<br>
 
-A few resources to get you started if this is your first Flutter project:
+## Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<h4 align="center">
+Loading repositories list with commit details asynchronously 
+</h4>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+   https://user-images.githubusercontent.com/76645329/209908973-8659f133-e5a8-4e83-aa86-34530a5fbc5f.mp4
+</p>
+
